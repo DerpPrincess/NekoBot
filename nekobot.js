@@ -94,4 +94,4 @@ function getRndInteger(min, max) {
   return Math.floor(Math.random() * (max - min + 1) ) + min;
 }
  
-client.login('NjI3MjkzNzExMzY5MzcxNjU4.XY6jaQ.4BK2gxGx1WzcGTNopzn04NT9wnw');
+client.login(''); //Token goes here
