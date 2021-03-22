@@ -1,15 +1,42 @@
 {
   "name": "nekobot",
   "version": "1.0.0",
-  "description": "javascript bot",
-  "main": "nekobot.js",
+  "description": "A cute Node.js Discord Bot",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "dependencies": {
-    "discord.js": "^11.5.1"
+    "async-mutex": "^0.2.6",
+    "bufferutil": "^4.0.3",
+    "discord.js": "^12.5.1",
+    "mongoose": "^5.12.0",
+    "readline": "^1.3.0",
+    "uws": "^100.0.1"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
-  "author": "Allison Johnson",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DerpPrincess/NekoBot.git"
+  },
+  "author": "Allison Mackenzie Johnson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DerpPrincess/NekoBot/issues"
+  },
+  "homepage": "https://github.com/DerpPrincess/NekoBot#readme",
+  "jspm": {
+    "directories": {
+      "test": "test"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
 }
